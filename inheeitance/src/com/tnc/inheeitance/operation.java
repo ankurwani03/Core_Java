@@ -34,14 +34,14 @@ class number
  }
 
 public class operation {
-
+ 
 	public static void main(String[] args)
 	{
 		rem obj=new rem();
 		Scanner sc=new Scanner(System.in);
 		obj. a=sc.nextInt();
 		obj. b=sc.nextInt();
-		
+		sc.close();
 		obj.add();
 		obj.sub();
 		obj.mul();
